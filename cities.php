@@ -34,9 +34,154 @@ function kingz_clw_add_custom_cities($states) {
             'city'     => 'Abuja',
             'division' => 'Central Area'
         ),
+        // Adding multiple divisions for Port Harcourt
         'NG104' => array(
             'city'     => 'Port Harcourt',
-            'division' => 'Port Harcourt Areas: NEW GRA, RUMUOLA, RUMUOKUTA, RUMUIGBO, ORAZI, MILE 4, WIMPEY, AGIP, MILE 3, ELEKAHIA, GARRISON, OGBUNABALI, RUMUOKALABOR, NTA ROAD, HARMONY ESTATE, AIRFORCE BASE, BORI CAMP, STADIUM ROAD, OLD GRA, ABULOMA, ODILI ROAD, TRANS AMADI, SLAUGHTER, RUMUOBIAKANI, OKPORO ROAD, ELIOZU, RUMUOKORO, TOWN, RUKPOKWU, ADA GEORGE, IWOFE, OZUOBA, CHOBA, WOJI, ELENLEWO, GOLF ESTATE, BOROKIRI'
+            'division' => 'NEW GRA'
+        ),
+        'NG104A' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUOLA'
+        ),
+        'NG104B' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUOKUTA'
+        ),
+        'NG104C' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUIGBO'
+        ),
+        'NG104D' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ORAZI'
+        ),
+        'NG104E' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'MILE 4'
+        ),
+        'NG104F' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'WIMPEY'
+        ),
+        'NG104G' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'AGIP'
+        ),
+        'NG104H' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'MILE 3'
+        ),
+        'NG104I' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ELEKAHIA'
+        ),
+        'NG104J' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'GARRISON'
+        ),
+        'NG104K' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'OGBUNABALI'
+        ),
+        'NG104L' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUOKALABOR'
+        ),
+        'NG104M' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'NTA ROAD'
+        ),
+        'NG104N' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'HARMONY ESTATE'
+        ),
+        'NG104O' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'AIRFORCE BASE'
+        ),
+        'NG104P' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'BORI CAMP'
+        ),
+        'NG104Q' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'STADIUM ROAD'
+        ),
+        'NG104R' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'OLD GRA'
+        ),
+        'NG104S' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ABULOMA'
+        ),
+        'NG104T' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ODILI ROAD'
+        ),
+        'NG104U' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'TRANS AMADI'
+        ),
+        'NG104V' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'SLAUGHTER'
+        ),
+        'NG104W' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUOBIAKANI'
+        ),
+        'NG104X' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'OKPORO ROAD'
+        ),
+        'NG104Y' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ELIOZU'
+        ),
+        'NG104Z' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUMUOKORO'
+        ),
+        'NG104AA' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'TOWN'
+        ),
+        'NG104AB' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'RUKPOKWU'
+        ),
+        'NG104AC' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ADA GEORGE'
+        ),
+        'NG104AD' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'IWOFE'
+        ),
+        'NG104AE' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'OZUOBA'
+        ),
+        'NG104AF' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'CHOBA'
+        ),
+        'NG104AG' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'WOJI'
+        ),
+        'NG104AH' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'ELENLEWO'
+        ),
+        'NG104AI' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'GOLF ESTATE'
+        ),
+        'NG104AJ' => array(
+            'city'     => 'Port Harcourt',
+            'division' => 'BOROKIRI'
         ),
         'NG105' => array(
             'city'     => 'Kano',
@@ -60,37 +205,4 @@ function kingz_clw_add_custom_cities($states) {
     $states['NG'] = $map;
 
     return $states;
-}
-
-// Add custom shipping rates based on city divisions
-add_action('woocommerce_cart_calculate_fees', 'kingz_clw_custom_shipping_fee');
-
-function kingz_clw_custom_shipping_fee() {
-    if (is_admin() && !defined('DOING_AJAX')) {
-        return;
-    }
-
-    $chosen_state = WC()->customer->get_shipping_state();
-    $custom_fee = 0;
-
-    // Define custom fees for each city code
-    $shipping_fees = array(
-        'NG101' => 500, // Lagos Mainland
-        'NG102' => 700, // Lagos Island
-        'NG103' => 1000, // Abuja
-        'NG104' => 800, // Port Harcourt
-        'NG105' => 600, // Kano
-        'NG106' => 750, // Enugu
-        'NG107' => 1200, // Other States
-    );
-
-    // Check if the chosen state has a custom fee
-    if (array_key_exists($chosen_state, $shipping_fees)) {
-        $custom_fee = $shipping_fees[$chosen_state];
-    }
-
-    // Add the custom fee to the cart
-    if ($custom_fee > 0) {
-        WC()->cart->add_fee(__('Custom Shipping Fee', 'clw'), $custom_fee);
-    }
 }
