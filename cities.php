@@ -22,19 +22,7 @@ function kingz_clw_add_custom_cities($states) {
 
     // Define cities and divisions
     $cities = array(
-        'NG101' => array(
-            'city'     => 'Lagos',
-            'division' => 'Lagos Mainland'
-        ),
-        'NG102' => array(
-            'city'     => 'Lagos',
-            'division' => 'Lagos Island'
-        ),
-        'NG103' => array(
-            'city'     => 'Abuja',
-            'division' => 'Central Area'
-        ),
-        // Adding multiple divisions for Port Harcourt
+        // Removed Lagos and Abuja entries
         'NG104' => array(
             'city'     => 'Port Harcourt',
             'division' => 'NEW GRA'
@@ -183,18 +171,7 @@ function kingz_clw_add_custom_cities($states) {
             'city'     => 'Port Harcourt',
             'division' => 'BOROKIRI'
         ),
-        'NG105' => array(
-            'city'     => 'Kano',
-            'division' => 'Kano City'
-        ),
-        'NG106' => array(
-            'city'     => 'Enugu',
-            'division' => 'Enugu North'
-        ),
-        'NG107' => array(
-            'city'     => 'Outside Lagos',
-            'division' => 'Other States'
-        ),
+        // Removed Kano, Enugu, and Outside Lagos entries
     );
 
     // Map cities and divisions to state codes
